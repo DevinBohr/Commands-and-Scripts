@@ -1,14 +1,14 @@
 Computer Information
-Get-ComputerInfo
+  Get-ComputerInfo
 
 OS Version
-Get-CimInstance Win32_OperatingSystem
+  Get-CimInstance Win32_OperatingSystem
 
 BIOS
-Get-CimInstance Win32_BIOS
+  Get-CimInstance Win32_BIOS
 
 Manufacturer/Model
-Get-CimInstance Win32_ComputerSystem
+  Get-CimInstance Win32_ComputerSystem
 
 Serial Number
-(Get-CimInstance Win32_BIOS).SerialNumber
+  (Get-CimInstance Win32_BIOS).SerialNumber
