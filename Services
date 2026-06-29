@@ -1,0 +1,14 @@
+"Get-Service"
+    - Lists every Windows service and whether it's running or stopped.
+
+"Restart-Service Spooler"
+    - Restarts the Print Spooler (common printer fix).
+
+"Start-Service"
+    - Starts a stopped Windows service.
+
+"Stop-Service"
+    - Stops a running Windows service.
+
+"Get-Service | Where {$_.Status -eq "Stopped"}"
+    - Finds every stopped service on the machine.
