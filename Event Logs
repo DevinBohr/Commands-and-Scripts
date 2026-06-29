@@ -1,0 +1,5 @@
+"Get-WinEvent -LogName System -MaxEvents 50"
+    - Retrieves the newest System event log entries.
+
+"Get-WinEvent -FilterHashtable @{LogName='System';Level=1}"
+    - Displays only Critical system events.
