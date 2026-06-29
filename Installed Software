@@ -1,0 +1,4 @@
+"Get-Package"
+    - Lists software installed through supported package providers.
+"Get-ItemProperty HKLM:\Software\Microsoft\Windows\CurrentVersion\Uninstall\*"
+    - Reads installed applications directly from the Windows registry.
