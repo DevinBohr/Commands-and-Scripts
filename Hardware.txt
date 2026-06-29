@@ -1,0 +1,9 @@
+RAM
+Get-CimInstance Win32_PhysicalMemory
+
+CPU
+Get-CimInstance Win32_Processor
+
+Disk Space
+Get-Volume
+
