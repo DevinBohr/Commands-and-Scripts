@@ -1,0 +1,8 @@
+Connect-ExchangeOnline	
+    - Connects to Exchange Online PowerShell.
+
+Get-Mailbox	
+    - Lists Exchange mailboxes.
+
+Get-MgSubscribedSku	
+    - Shows Microsoft 365 license types and availability.
