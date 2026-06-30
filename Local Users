@@ -1,8 +1,8 @@
-"Get-LocalUser"
+Get-LocalUser
     - Lists all local user accounts.
 
-"Get-LocalGroup"
+Get-LocalGroup
     - Displays all local security groups.
 
-"Get-LocalGroupMember Administrators"
+Get-LocalGroupMember Administrators
     - Shows who has local administrator rights.
