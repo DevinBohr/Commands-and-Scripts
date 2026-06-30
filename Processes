@@ -1,8 +1,8 @@
-"Get-Process"
+Get-Process
     - Lists all currently running processes.
 
-"Get-Process | Sort CPU -Descending"
+Get-Process | Sort CPU -Descending
     - Shows the highest CPU-consuming applications first.
 
-"Stop-Process -Name chrome -Force"
+Stop-Process -Name chrome -Force
     - Forcefully closes Chrome (or any specified process).
