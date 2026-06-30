@@ -1,0 +1,32 @@
+Get-ADUser jsmith	
+    - Retrieves information about a specific AD user.
+
+Get-ADUser -Filter *	
+    - Lists every user in Active Directory.
+
+Search-ADAccount -AccountDisabled	
+    - Finds disabled user accounts.
+
+Search-ADAccount -LockedOut	
+    - Finds locked-out user accounts.
+
+Unlock-ADAccount jsmith	
+    - Unlocks a user's AD account.
+
+Get-ADUser -Filter {PasswordNeverExpires -eq $true}	
+    - Finds accounts with non-expiring passwords.
+
+Get-ADUser jsmith -Properties PasswordLastSet	
+    - Shows when a user's password was last changed.
+
+Get-ADGroupMember "IT Staff"	
+    - Lists all members of an AD group.
+
+Get-ADComputer -Filter *	
+    - Lists every computer object in Active Directory.
+
+Get-ADComputer -Properties LastLogonDate	
+    - Displays the last logon time for computers.
+
+Where {$_.LastLogonDate -lt (Get-Date).AddDays(-90)}	
+    - Finds inactive computers older than 90 days.
