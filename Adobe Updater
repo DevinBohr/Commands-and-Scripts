@@ -1,0 +1,17 @@
+$paths = @(
+    "HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\*",
+    "HKLM:\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\*"
+)
+
+(Get-ItemProperty $paths |
+Where-Object {$_.DisplayName -match "Adobe (Acrobat|Acrobat Reader)"}).DisplayVersion
+
+^^^ DISPLAY ADOBE VERSION ^^^
+
+Test-Path "C:\Program Files (x86)\Common Files\Adobe\OOBE_Enterprise\RemoteUpdateManager\RemoteUpdateManager.exe"
+
+^^^ VERIFY THE REMOTE UPDATER EXISTS ^^^
+
+"C:\Program Files (x86)\Common Files\Adobe\OOBE_Enterprise\RemoteUpdateManager\RemoteUpdateManager.exe"
+
+^^^ SILENTLY UPDATES ADOBE ^^^
