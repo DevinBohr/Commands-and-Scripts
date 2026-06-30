@@ -1,0 +1,8 @@
+Get-GPO -All	
+    - Lists every Group Policy Object in the domain.
+
+gpresult /h report.html	
+    - Generates an HTML report of applied Group Policies.
+
+gpupdate /force	
+    - Immediately refreshes Group Policy settings.
