@@ -1,0 +1,11 @@
+Get-Command *firewall*	
+    - Searches for commands containing "firewall."
+
+Get-Module -ListAvailable	
+    - Lists installed PowerShell modules.
+
+Get-Help Get-Service	
+    - Displays documentation for a command.
+
+Get-Help Get-Service -Examples	
+    - Shows practical usage examples.
