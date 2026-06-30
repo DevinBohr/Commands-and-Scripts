@@ -1,0 +1,5 @@
+"Get-HotFix"
+    - Lists installed Windows updates and patches.
+
+"Get-HotFix | Sort InstalledOn -Descending"	
+    - Shows the most recently installed updates first.
