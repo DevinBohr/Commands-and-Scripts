@@ -1,0 +1,11 @@
+Connect-MgGraph	
+    - Connects PowerShell to Microsoft Graph.
+
+Get-MgDeviceManagementManagedDevice	
+    - Lists Intune-managed devices.
+
+Get-MgUser	
+    - Retrieves Microsoft Entra ID users.
+
+Get-MgGroup	
+    - Lists Microsoft Entra ID groups.
