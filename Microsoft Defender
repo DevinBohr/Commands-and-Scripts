@@ -1,0 +1,8 @@
+Get-MpComputerStatus	
+    - Shows Defender health, protection status, signatures, and scan history.
+
+Update-MpSignature	
+    - Downloads the latest Defender virus definitions.
+
+Start-MpScan -ScanType QuickScan	
+    - Starts a Defender Quick Scan.
