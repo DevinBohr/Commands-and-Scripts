@@ -4,5 +4,5 @@ Get-ChildItem C:\ -Recurse
 Get-ChildItem C:\ -Recurse | Sort Length -Descending | Select Name,Length -First 20	
     - Finds the largest files on a drive.
 
-Remove-Item $env:TEMP\* -Recurse -Force	
+Remove-Item $env:TEMP\* -Recurse -Force
     - Deletes the current user's temporary files.
