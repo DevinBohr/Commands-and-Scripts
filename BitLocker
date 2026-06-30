@@ -1,0 +1,8 @@
+Get-BitLockerVolume	
+    - Displays BitLocker status for every drive.
+
+(Get-BitLockerVolume).KeyProtector	
+    - Shows configured BitLocker recovery protectors.
+
+Enable-BitLocker	
+    - Enables BitLocker encryption on a drive.
