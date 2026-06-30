@@ -1,5 +1,5 @@
-"Get-ScheduledTask"	
+Get-ScheduledTask
     - Lists all scheduled tasks on the computer.
 
-"Get-ScheduledTask | Where State -eq Disabled"	
+Get-ScheduledTask | Where State -eq Disabled	
     - Finds disabled scheduled tasks.
