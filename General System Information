@@ -1,14 +1,14 @@
 Get-ComputerInfo
     - Displays information about the computer including OS, BIOS, RAM, Windows version, processor, and more.
 
-"Get-CimInstance Win32_OperatingSystem"
+Get-CimInstance Win32_OperatingSystem
     - Shows operating system details like build number, install date, uptime, and version.
 
-"Get-CimInstance Win32_BIOS"
+Get-CimInstance Win32_BIOS
     - Retrieves BIOS version, manufacturer, and firmware information.
 
-"Get-CimInstance Win32_ComputerSystem"
+Get-CimInstance Win32_ComputerSystem
     - Displays manufacturer, model, computer name, RAM, and domain membership.
 
-"(Get-CimInstance Win32_BIOS).SerialNumber"
+(Get-CimInstance Win32_BIOS).SerialNumber
     - Retrieves the computer's serial number (great for inventory).
