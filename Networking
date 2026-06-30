@@ -1,20 +1,20 @@
-"Get-NetIPAddress"
+Get-NetIPAddress
     - Displays all IP addresses assigned to network adapters.
 
-"Get-DnsClientServerAddress"
+Get-DnsClientServerAddress
     - Shows configured DNS servers for every adapter.
 
-"Get-NetRoute"
+Get-NetRoute
     - Displays the Windows routing table.
 
-"Get-NetAdapter"
+Get-NetAdapter
     - Lists all network adapters and their status.
 
-"Restart-NetAdapter -Name Ethernet"
+Restart-NetAdapter -Name Ethernet
     - Disables and re-enables a network adapter.
 
-"Test-Connection google.com"
+Test-Connection google.com
     - Performs a PowerShell ping test.
 
-"Test-NetConnection google.com -Port 443"
+Test-NetConnection google.com -Port 443
     - Tests network connectivity to a specific TCP port. Excellent for troubleshooting firewalls.
