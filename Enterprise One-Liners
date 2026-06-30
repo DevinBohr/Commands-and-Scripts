@@ -1,0 +1,14 @@
+Get-Process | Sort WS -Descending | Select -First 10	
+    - Finds the top memory-consuming processes.
+
+Get-ChildItem C:\ -Directory ... Measure 
+    - Length	Calculates the largest folders on a drive.
+
+Get-CimInstance Win32_LogicalDisk | Where {$_.FreeSpace/1GB -lt 10}	
+    - Finds drives with less than 10 GB free.
+
+Restart-Service Spooler	
+    - Restarts the Print Spooler to resolve printing issues.
+
+Get-CimInstance Win32_StartupCommand	
+    - Lists programs that launch automatically at startup.
