@@ -1,0 +1,38 @@
+Get-Help	
+    - Learn how a command works.
+
+Get-Command	
+    - Find available commands.
+
+Where-Object	  
+    - Filter objects based on conditions.
+
+Select-Object	
+    - Choose specific properties to display.
+
+Sort-Object	
+    - Sort output alphabetically or numerically.
+
+Group-Object	
+    - Group similar objects together.
+
+Measure-Object	
+    - Count, sum, average, or measure data.
+
+ForEach-Object	
+    - Perform an action on every object in a pipeline.
+
+Out-GridView	
+    - Display results in a searchable GUI table (Windows PowerShell).
+
+Export-Csv	
+    - Export data to Excel-compatible CSV files.
+
+Import-Csv	
+    - Read CSV files into PowerShell objects.
+
+Compare-Object	
+    - Compare two lists and identify differences.
+
+Tee-Object	
+    - Send output to both the screen and a file simultaneously.
