@@ -1,0 +1,8 @@
+Enter-PSSession PC001	
+    - Opens an interactive PowerShell session on a remote computer.
+
+Invoke-Command -ComputerName PC001 -ScriptBlock {}	
+    - Executes PowerShell commands remotely without logging in.
+
+Invoke-Command -ComputerName (Get-Content computers.txt)	
+    - Runs commands simultaneously on multiple computers.
