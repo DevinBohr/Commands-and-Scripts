@@ -1,0 +1,8 @@
+whoami	
+    - Displays the currently logged-in user.
+
+quser	 
+    - Lists active Remote Desktop and console sessions.
+
+Get-CimInstance Win32_LoggedOnUser	
+    - Shows users currently logged onto the system.
