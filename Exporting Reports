@@ -1,0 +1,5 @@
+Export-Csv events.csv	
+    - Saves command output to a CSV file for Excel.
+
+Export-Csv services.csv	
+    - Exports service information to a CSV report.
